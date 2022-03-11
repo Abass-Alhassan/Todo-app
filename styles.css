@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Heebo",sans-serif;
+}
+body{
+    background-color: aqua;
+    padding: 0 20px;
+}
+header{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.logo-wrap{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: rgb(18, 18, 131);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+    
+}
+.logo-wrap p{
+    font-size: 20px;
+    color: crimson;
+    padding: 2px 10px;
+    border: 1px solid rgb(255, 0, 191);
+    border-radius: 5px;
+}
+.logo-wrap p:active{
+    background-color:gray ;
+}
+.todo-add{
+    background-color: transparent;
+    text-shadow: 0 0 1px gray;
+    font-size: 24px;
+    outline: none;
+    border: none;
+    font-weight: lighter;
+
+}
+.todo-add{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 2px black;
+
+}
